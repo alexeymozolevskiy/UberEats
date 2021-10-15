@@ -1,0 +1,37 @@
+article * {
+  color: #1d1d1d;
+}
+article .search {
+  border-bottom: 1px solid #757575;
+  margin: 30px 0px 55px 0px;
+}
+article .container {
+  padding: 0px;
+}
+.container h3 {
+  margin: 0px;
+}
+article .search input {
+  border: none;
+  width: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #626262;
+}
+.restaurant-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.restaurant-item {
+  line-height: 4px;
+  padding: 16px 0px 20px 0px;
+  /* margin: 0px 16px 16px 0px; */
+}
+.restaurant-item .menu {
+  color: #626262;
+}
