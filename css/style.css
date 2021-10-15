@@ -87,18 +87,21 @@ footer .download {
 .social-link .column-3 * {
   padding: 12px 0px;
 }
-.select-language button {
+.select-language {
   padding: 12px 16px;
   margin-bottom: 30px;
 }
-.select-language button img {
+.select-language img {
   margin-right: 16px;
+}
+.select-language {
+  width: 170px;
 }
 .select-language select {
   width: 170px;
 }
-.select-language button,
-.select-language button select {
+.select-language,
+.select-language select {
   color: #fff;
   background-color: #3b3b3b;
   border: none;
